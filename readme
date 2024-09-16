@@ -1,0 +1,32 @@
+File Structure:
+1. main.py : contains the main code for training the model and generating inferences
+2. app.py : contains code for the real world application
+3. hog.py : contains the code for extracting the hog features 
+4. vid_maker.py : contains the code used to generate the test_video for the real world application
+
+Running Instructions:
+1. For main.py: Run the following command:-
+python3 main.py <path_to_input_dir> <path_to_output_dir>
+
+-> path_to_input_dir: path to the directory containing the input images to be tested
+-> path_to_output_dir: path to the directory where the labelled output images are to be stored 
+
+Example Running Command:
+python3 main.py test/ output/
+
+
+2. For app.py: Run the following command:-
+python3 app.py <path_to_audio_file> <path_to_video_file>
+
+-> path_to_audio_file: path to the audio file to be played
+-> path_to_video_file: path to the video on which inference has to be generated
+
+Example Running Command:
+python3 app.py summer-night-piano-solo-6885.mp3 test_video.mp4
+
+3. For app2.py: Run the following command:-
+python3 app2.py <path_to_video_file>
+-> path_to_video_file: path to the video on which inference has to be generated
+
+Example Running Command:
+python3 app2.py test_video.mp4
