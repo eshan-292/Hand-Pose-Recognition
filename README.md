@@ -131,18 +131,7 @@ python3 app2.py test_video.mp4
 
 
 File Structure:
-hand-gesture-recognition/
-│
-├── train_model.py          # Script for training the SVM model
-├── test_model.py           # Script for testing the model
-├── music_player.py         # Music player application
-├── game_controller.py      # Game controller application
-├── ROI_coordinates.py      # Script for hand detection using MediaPipe
-├── utils/                  # Helper functions for HOG extraction
-├── data/                   # Dataset files
-├── models/                 # Saved models
-├── results/                # Output results
-└── README.md               # Project description
+
 1. main.py : contains the main code for training the model and generating inferences
 2. app.py : contains code for the real world application
 3. hog.py : contains the code for extracting the hog features 
